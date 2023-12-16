@@ -3,7 +3,7 @@
 -> CUNY Enrollment System is the final project for the CST4713 class, showcasing dynamic web development with JSP and Servlets. 
 The project follows a full-stack Java-based approach, implementing the MVC architecture with distinct layers for UI, Business Class, and Data Access.
 
-## Major requirement
+## Major Requirements
 
 1. regisLogin.jsp should ask user's ssn number (student's ssn in our database used in class) and move to validateLogin.java servlet.
 2. Must have all database-related codes isolated into DBUtil.java under DBUtils package.
@@ -60,50 +60,46 @@ The project is structured as follows:
 
 8. **Error-Free Compilation**: Strict adherence to coding standards ensures a compilation error-free codebase.
 
-Certainly! Let's expand on the technology stack used in the CUNY Enrollment System project:
-
 ## Tech Stack
 
-### Frontend
+### Frontend:
 - **JavaServer Pages (JSP):** Used for dynamic content generation and presentation.
 - **CSS (Cascading Style Sheets):** Provides styling and layout for the user interface.
 
-### Backend
+### Backend:
 - **Java Servlets:** Handle server-side processing and act as controllers in the MVC architecture.
 - **JavaBeans:** Used for encapsulating and organizing data structures.
 - **Java Database Connectivity (JDBC):** Facilitates interaction with the MySQL database.
 
-### Database
+### Database:
 - **MySQL:** A relational database management system used to store and retrieve student and course-related data.
 
-### Development Environment
+### Development Environment:
 - **Eclipse:** Integrated development environment (IDE) for Java development.
 - **JavaEE:** Java Platform, Enterprise Edition, for building enterprise-level applications.
 
-### Version Control
+### Version Control:
 - **Git:** Used for version control, facilitating collaboration, and code management.
 
-### Project Management
+### Project Management:
 - **GitHub:** Platform for hosting the project repository, version control, and collaboration.
 
-### Build Tool
-- **None specified:** The project may not use a specific build tool; manual compilation and deployment could be performed.
-
-### Architecture
+### Architecture:
 - **MVC (Model-View-Controller):** A design pattern separating the application into three interconnected components for a more modular and scalable structure.
 
-### Deployment
+### Deployment:
 - **Local Server:** The project was deployed on a local server during development and testing.
 
-### Other
+### Other:
 - **JDBC Driver for MySQL:** Enables Java applications to interact with the MySQL database using JDBC.
 
-## Screenshots
-
+### Login Screen
 <img width="1350" alt="Screen Shot 2023-12-16 at 11 48 07" src="https://github.com/prashantsah567/CUNY-Enrollment-System/assets/82275480/81affb82-7e69-45c0-8f72-ac3ffc7b0bb9">
 
+### Student Info Screen
 <img width="1434" alt="Screen Shot 2023-12-16 at 11 46 06" src="https://github.com/prashantsah567/CUNY-Enrollment-System/assets/82275480/a1a2e939-12e0-4de4-881e-771291440498">
 
+### Enrollment Screen
 <img width="1059" alt="Screen Shot 2023-12-16 at 11 46 30" src="https://github.com/prashantsah567/CUNY-Enrollment-System/assets/82275480/026e166d-a605-4394-abc0-8b95ac391521">
 
 # Running the Project
