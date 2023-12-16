@@ -100,7 +100,7 @@ Certainly! Let's expand on the technology stack used in the CUNY Enrollment Syst
 
 ## Screenshots
 
-<img width="821" alt="Screen Shot 2023-12-16 at 11 45 39" src="https://github.com/prashantsah567/CUNY-Enrollment-System/assets/82275480/b0db1768-0599-48d8-a5e4-3fac65ba9e33">
+<img width="1350" alt="Screen Shot 2023-12-16 at 11 48 07" src="https://github.com/prashantsah567/CUNY-Enrollment-System/assets/82275480/81affb82-7e69-45c0-8f72-ac3ffc7b0bb9">
 
 <img width="1434" alt="Screen Shot 2023-12-16 at 11 46 06" src="https://github.com/prashantsah567/CUNY-Enrollment-System/assets/82275480/a1a2e939-12e0-4de4-881e-771291440498">
 
