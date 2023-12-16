@@ -1,14 +1,14 @@
-# CUNY Enrollent System 
+# CUNY Enrollment System 
 
 -> CUNY Enrollment System is the final project for the CST4713 class, showcasing dynamic web development with JSP and Servlets. 
 The project follows a full-stack Java-based approach, implementing the MVC architecture with distinct layers for UI, Business Class, and Data Access.
 
-### Major requirement: 
+## Major requirement
 
-1. regisLogin.jsp should ask user's ssn number (student's ssn in our database useing in class) and move to validateLogin.java servlet.
-2. Must have all database related codes isolated into DBUtil.java under DBUtils package.
+1. regisLogin.jsp should ask user's ssn number (student's ssn in our database used in class) and move to validateLogin.java servlet.
+2. Must have all database-related codes isolated into DBUtil.java under DBUtils package.
 3. All Beans (attached) should be used and they should be under Beans package.
-4. If the student exist in the Student table in the database, your validateLogin servlet will move to myRegist.jsp that displays all classes registered as below picture.
+4. If the student exists in the Student table in the database, your validateLogin servlet will move to myRegist.jsp that displays all classes registered as below picture.
 5. If the student doesn't exist, your validateLogin servlet will move to loginError.jsp that displays "[SSN] doesn't exist in our database" and the link to go back to regisLogin.jsp. 
 6. Enroll button should move to registerClass.java servlet to get data and show in the enroll.jsp.
 7. Drop button should move to dropClass.java servlet and go back to myRegist.jsp if successful. If not, enrollDropError.jsp.
@@ -52,7 +52,7 @@ The project is structured as follows:
 
 4. **Dynamic UI**: The myRegist.jsp page displays all classes registered by a student, providing a comprehensive view of their enrollment.
 
-5. **Error Handling**: In case of a non-existing student, loginError.jsp informs the user, directing them back to regisLogin.jsp and other errors are handled in similar fashion.
+5. **Error Handling**: In case of a non-existing student, loginError.jsp informs the user, directing them back to regisLogin.jsp and other errors are handled in a similar fashion.
 
 6. **Enrollment and Dropping**: The Enroll button triggers registerClass.java to gather data and present it in enroll.jsp. The Drop button connects to dropClass.java, returning to myRegist.jsp upon success or enrollDropError.jsp in case of an issue.
 
@@ -81,7 +81,7 @@ Certainly! Let's expand on the technology stack used in the CUNY Enrollment Syst
 - **JavaEE:** Java Platform, Enterprise Edition, for building enterprise-level applications.
 
 ### Version Control
-- **Git:** Used for version control, facilitating collaboration and code management.
+- **Git:** Used for version control, facilitating collaboration, and code management.
 
 ### Project Management
 - **GitHub:** Platform for hosting the project repository, version control, and collaboration.
@@ -100,8 +100,11 @@ Certainly! Let's expand on the technology stack used in the CUNY Enrollment Syst
 
 ## Screenshots
 
-![Screenshot 1](/path/to/screenshot1.png)
-![Screenshot 2](/path/to/screenshot2.png)
+<img width="821" alt="Screen Shot 2023-12-16 at 11 45 39" src="https://github.com/prashantsah567/CUNY-Enrollment-System/assets/82275480/b0db1768-0599-48d8-a5e4-3fac65ba9e33">
+
+<img width="1434" alt="Screen Shot 2023-12-16 at 11 46 06" src="https://github.com/prashantsah567/CUNY-Enrollment-System/assets/82275480/a1a2e939-12e0-4de4-881e-771291440498">
+
+<img width="1059" alt="Screen Shot 2023-12-16 at 11 46 30" src="https://github.com/prashantsah567/CUNY-Enrollment-System/assets/82275480/026e166d-a605-4394-abc0-8b95ac391521">
 
 # Running the Project
 
