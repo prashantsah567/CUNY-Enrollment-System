@@ -107,6 +107,6 @@ The project is structured as follows:
 1. Clone the repository to your local machine.
 2. Open the project in Eclipse with JavaEE support.
 
-Feel free to explore the code and enhance it based on your requirements. If any issues arise, refer to the guidelines above or contact the project owner.
+Feel free to explore the code and enhance it based on your requirements. If any issues arise, refer to the guidelines above or contact me.
 
 Happy coding!
